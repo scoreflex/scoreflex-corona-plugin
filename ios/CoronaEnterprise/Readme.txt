@@ -1,0 +1,1 @@
+This folder should be a link to your CoronaEnterprise folder

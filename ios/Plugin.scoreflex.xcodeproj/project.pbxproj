@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4E253C9166D716900DCDC2C /* PluginScoreflex.mm in Sources */ = {isa = PBXBuildFile; fileRef = A447B617165D734C009EA762 /* PluginScoreflex.mm */; };
+		F9485470178455D2006F00BF /* PluginViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F948546F178455D2006F00BF /* PluginViewDelegate.m */; };
+		F95C7A16179EE02500B6EE11 /* PluginAdUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = F95C7A14179ED8B900B6EE11 /* PluginAdUtils.mm */; };
+		F95C7A18179EE03C00B6EE11 /* libChartboost.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F95C7A02179ED4E200B6EE11 /* libChartboost.a */; };
+		F95C7A1A179EE82E00B6EE11 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F95C7A12179ED63D00B6EE11 /* libGoogleAdMobAds.a */; };
+		F95C7A1B179EEC5400B6EE11 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F95C7A08179ED59E00B6EE11 /* libGoogleAnalytics.a */; };
+		F95C7A1E179EEC9300B6EE11 /* PluginGanalytics.mm in Sources */ = {isa = PBXBuildFile; fileRef = F95C7A1D179EEC8A00B6EE11 /* PluginGanalytics.mm */; };
+		F99BA0EA17B1208E00EF57A6 /* NotificationObserver.mm in Sources */ = {isa = PBXBuildFile; fileRef = F99BA0E917B1208E00EF57A6 /* NotificationObserver.mm */; };
+		F9B0D03A17A00048005444DA /* libScoreflex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B0D033179FFFCC005444DA /* libScoreflex.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9B0D032179FFFCC005444DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9B0D02C179FFFCC005444DA /* Scoreflex.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9991A7A1175F678D00A01F31;
+			remoteInfo = Scoreflex;
+		};
+		F9B0D034179FFFCC005444DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9B0D02C179FFFCC005444DA /* Scoreflex.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9991A7B2175F678D00A01F31;
+			remoteInfo = ScoreflexTests;
+		};
+		F9B0D036179FFFCC005444DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9B0D02C179FFFCC005444DA /* Scoreflex.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9955BB9217834CD100EBF78A;
+			remoteInfo = ScoreflexResources;
+		};
+		F9B0D03B17A0140C005444DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9B0D02C179FFFCC005444DA /* Scoreflex.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9991A7A0175F678D00A01F31;
+			remoteInfo = Scoreflex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A4E253B4166D6FB300DCDC2C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A447B616165D734C009EA762 /* PluginScoreflex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PluginScoreflex.h; path = Plugin/PluginScoreflex.h; sourceTree = "<group>"; };
+		A447B617165D734C009EA762 /* PluginScoreflex.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = PluginScoreflex.mm; path = Plugin/PluginScoreflex.mm; sourceTree = "<group>"; };
+		A4E253B6166D6FB300DCDC2C /* libplugin_library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libplugin_library.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F948546A17844EE3006F00BF /* Scoreflex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Scoreflex.h; path = Plugin/Scoreflex.h; sourceTree = "<group>"; };
+		F948546B17844EE3006F00BF /* SXResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SXResponse.h; path = Plugin/SXResponse.h; sourceTree = "<group>"; };
+		F948546C17844EE3006F00BF /* SXView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SXView.h; path = Plugin/SXView.h; sourceTree = "<group>"; };
+		F948546E178455D2006F00BF /* PluginViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PluginViewDelegate.h; path = Plugin/PluginViewDelegate.h; sourceTree = "<group>"; };
+		F948546F178455D2006F00BF /* PluginViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PluginViewDelegate.m; path = Plugin/PluginViewDelegate.m; sourceTree = "<group>"; };
+		F95C7A01179ED4E200B6EE11 /* Chartboost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Chartboost.h; path = Plugin/Chartboost.h; sourceTree = "<group>"; };
+		F95C7A02179ED4E200B6EE11 /* libChartboost.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libChartboost.a; path = Plugin/libChartboost.a; sourceTree = "<group>"; };
+		F95C7A03179ED59E00B6EE11 /* GAI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GAI.h; path = Plugin/GAI.h; sourceTree = "<group>"; };
+		F95C7A04179ED59E00B6EE11 /* GAITrackedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GAITrackedViewController.h; path = Plugin/GAITrackedViewController.h; sourceTree = "<group>"; };
+		F95C7A05179ED59E00B6EE11 /* GAITracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GAITracker.h; path = Plugin/GAITracker.h; sourceTree = "<group>"; };
+		F95C7A06179ED59E00B6EE11 /* GAITransaction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GAITransaction.h; path = Plugin/GAITransaction.h; sourceTree = "<group>"; };
+		F95C7A07179ED59E00B6EE11 /* GAITransactionItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GAITransactionItem.h; path = Plugin/GAITransactionItem.h; sourceTree = "<group>"; };
+		F95C7A08179ED59E00B6EE11 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalytics.a; path = Plugin/libGoogleAnalytics.a; sourceTree = "<group>"; };
+		F95C7A09179ED63D00B6EE11 /* GADAdMobExtras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADAdMobExtras.h; path = Plugin/GADAdMobExtras.h; sourceTree = "<group>"; };
+		F95C7A0A179ED63D00B6EE11 /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADAdNetworkExtras.h; path = Plugin/GADAdNetworkExtras.h; sourceTree = "<group>"; };
+		F95C7A0B179ED63D00B6EE11 /* GADAdSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADAdSize.h; path = Plugin/GADAdSize.h; sourceTree = "<group>"; };
+		F95C7A0C179ED63D00B6EE11 /* GADBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADBannerView.h; path = Plugin/GADBannerView.h; sourceTree = "<group>"; };
+		F95C7A0D179ED63D00B6EE11 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADBannerViewDelegate.h; path = Plugin/GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		F95C7A0E179ED63D00B6EE11 /* GADInterstitial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADInterstitial.h; path = Plugin/GADInterstitial.h; sourceTree = "<group>"; };
+		F95C7A0F179ED63D00B6EE11 /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADInterstitialDelegate.h; path = Plugin/GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		F95C7A10179ED63D00B6EE11 /* GADRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADRequest.h; path = Plugin/GADRequest.h; sourceTree = "<group>"; };
+		F95C7A11179ED63D00B6EE11 /* GADRequestError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADRequestError.h; path = Plugin/GADRequestError.h; sourceTree = "<group>"; };
+		F95C7A12179ED63D00B6EE11 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAdMobAds.a; path = Plugin/libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		F95C7A13179ED8B900B6EE11 /* PluginAdUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PluginAdUtils.h; path = Plugin/PluginAdUtils.h; sourceTree = "<group>"; };
+		F95C7A14179ED8B900B6EE11 /* PluginAdUtils.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = PluginAdUtils.mm; path = Plugin/PluginAdUtils.mm; sourceTree = "<group>"; };
+		F95C7A1C179EEC8A00B6EE11 /* PluginGanalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PluginGanalytics.h; path = Plugin/PluginGanalytics.h; sourceTree = "<group>"; };
+		F95C7A1D179EEC8A00B6EE11 /* PluginGanalytics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = PluginGanalytics.mm; path = Plugin/PluginGanalytics.mm; sourceTree = "<group>"; };
+		F99BA0E817B1208E00EF57A6 /* NotificationObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationObserver.h; sourceTree = "<group>"; };
+		F99BA0E917B1208E00EF57A6 /* NotificationObserver.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NotificationObserver.mm; sourceTree = "<group>"; };
+		F9B0D02C179FFFCC005444DA /* Scoreflex.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Scoreflex.xcodeproj; path = "../../scoreflex-ios-sdk/Scoreflex.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4E253B3166D6FB300DCDC2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95C7A18179EE03C00B6EE11 /* libChartboost.a in Frameworks */,
+				F95C7A1A179EE82E00B6EE11 /* libGoogleAdMobAds.a in Frameworks */,
+				F95C7A1B179EEC5400B6EE11 /* libGoogleAnalytics.a in Frameworks */,
+				F9B0D03A17A00048005444DA /* libScoreflex.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A447B609165D72A6009EA762 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F99BA0E817B1208E00EF57A6 /* NotificationObserver.h */,
+				F99BA0E917B1208E00EF57A6 /* NotificationObserver.mm */,
+				F95C7A1C179EEC8A00B6EE11 /* PluginGanalytics.h */,
+				F95C7A1D179EEC8A00B6EE11 /* PluginGanalytics.mm */,
+				F948546E178455D2006F00BF /* PluginViewDelegate.h */,
+				F948546F178455D2006F00BF /* PluginViewDelegate.m */,
+				A447B616165D734C009EA762 /* PluginScoreflex.h */,
+				A447B617165D734C009EA762 /* PluginScoreflex.mm */,
+				F95C7A13179ED8B900B6EE11 /* PluginAdUtils.h */,
+				F95C7A14179ED8B900B6EE11 /* PluginAdUtils.mm */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		A484110E15114F700074BD57 = {
+			isa = PBXGroup;
+			children = (
+				F9B0D02C179FFFCC005444DA /* Scoreflex.xcodeproj */,
+				F9F67DD617709DFF008A8470 /* libs */,
+				A447B609165D72A6009EA762 /* Source */,
+				A484111A15114F700074BD57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A484111A15114F700074BD57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4E253B6166D6FB300DCDC2C /* libplugin_library.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9B0D02D179FFFCC005444DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9B0D033179FFFCC005444DA /* libScoreflex.a */,
+				F9B0D035179FFFCC005444DA /* ScoreflexTests.octest */,
+				F9B0D037179FFFCC005444DA /* ScoreflexResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9F67DD617709DFF008A8470 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				F95C7A03179ED59E00B6EE11 /* GAI.h */,
+				F95C7A04179ED59E00B6EE11 /* GAITrackedViewController.h */,
+				F95C7A05179ED59E00B6EE11 /* GAITracker.h */,
+				F95C7A06179ED59E00B6EE11 /* GAITransaction.h */,
+				F95C7A07179ED59E00B6EE11 /* GAITransactionItem.h */,
+				F95C7A08179ED59E00B6EE11 /* libGoogleAnalytics.a */,
+				F95C7A01179ED4E200B6EE11 /* Chartboost.h */,
+				F95C7A02179ED4E200B6EE11 /* libChartboost.a */,
+				F948546A17844EE3006F00BF /* Scoreflex.h */,
+				F948546B17844EE3006F00BF /* SXResponse.h */,
+				F95C7A09179ED63D00B6EE11 /* GADAdMobExtras.h */,
+				F95C7A0A179ED63D00B6EE11 /* GADAdNetworkExtras.h */,
+				F95C7A0B179ED63D00B6EE11 /* GADAdSize.h */,
+				F95C7A0C179ED63D00B6EE11 /* GADBannerView.h */,
+				F95C7A0D179ED63D00B6EE11 /* GADBannerViewDelegate.h */,
+				F95C7A0E179ED63D00B6EE11 /* GADInterstitial.h */,
+				F95C7A0F179ED63D00B6EE11 /* GADInterstitialDelegate.h */,
+				F95C7A10179ED63D00B6EE11 /* GADRequest.h */,
+				F95C7A11179ED63D00B6EE11 /* GADRequestError.h */,
+				F95C7A12179ED63D00B6EE11 /* libGoogleAdMobAds.a */,
+				F948546C17844EE3006F00BF /* SXView.h */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4E253B5166D6FB300DCDC2C /* plugin_library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E253BF166D6FB300DCDC2C /* Build configuration list for PBXNativeTarget "plugin_library" */;
+			buildPhases = (
+				A4E253B2166D6FB300DCDC2C /* Sources */,
+				A4E253B3166D6FB300DCDC2C /* Frameworks */,
+				A4E253B4166D6FB300DCDC2C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9B0D03C17A0140C005444DA /* PBXTargetDependency */,
+			);
+			name = plugin_library;
+			productName = plugin_library;
+			productReference = A4E253B6166D6FB300DCDC2C /* libplugin_library.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A484111015114F700074BD57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A484111315114F700074BD57 /* Build configuration list for PBXProject "Plugin.scoreflex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A484110E15114F700074BD57;
+			productRefGroup = A484111A15114F700074BD57 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F9B0D02D179FFFCC005444DA /* Products */;
+					ProjectRef = F9B0D02C179FFFCC005444DA /* Scoreflex.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A4E253B5166D6FB300DCDC2C /* plugin_library */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F9B0D033179FFFCC005444DA /* libScoreflex.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libScoreflex.a;
+			remoteRef = F9B0D032179FFFCC005444DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F9B0D035179FFFCC005444DA /* ScoreflexTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ScoreflexTests.octest;
+			remoteRef = F9B0D034179FFFCC005444DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F9B0D037179FFFCC005444DA /* ScoreflexResources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ScoreflexResources.bundle;
+			remoteRef = F9B0D036179FFFCC005444DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4E253B2166D6FB300DCDC2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95C7A1E179EEC9300B6EE11 /* PluginGanalytics.mm in Sources */,
+				F95C7A16179EE02500B6EE11 /* PluginAdUtils.mm in Sources */,
+				A4E253C9166D716900DCDC2C /* PluginScoreflex.mm in Sources */,
+				F9485470178455D2006F00BF /* PluginViewDelegate.m in Sources */,
+				F99BA0EA17B1208E00EF57A6 /* NotificationObserver.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9B0D03C17A0140C005444DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Scoreflex;
+			targetProxy = F9B0D03B17A0140C005444DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A484114015114F700074BD57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"ARCHS[sdk=iphoneos*]" = armv7;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/CoronaEnterprise/Corona/shared/include/Corona ${SRCROOT}/CoronaEnterprise/Corona/shared/include/lua ${SRCROOT}/CoronaEnterprise/Corona/ios/include/Corona";
+			};
+			name = Debug;
+		};
+		A484114115114F700074BD57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"ARCHS[sdk=iphoneos*]" = armv7;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/CoronaEnterprise/Corona/shared/include/Corona ${SRCROOT}/CoronaEnterprise/Corona/shared/include/lua ${SRCROOT}/CoronaEnterprise/Corona/ios/include/Corona";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4E253C0166D6FB300DCDC2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DSTROOT = /tmp/plugin_library.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Plugin\"",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/Quizz-emyhhpcekufehufpejldettonmvg/Build/Products/Debug-iphonesimulator\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/CoronaEnterprise/Corona/shared/include/Corona ${SRCROOT}/CoronaEnterprise/Corona/shared/include/lua ${SRCROOT}/CoronaEnterprise/Corona/ios/include/Corona ${SRCROOT}/../ios-scoreflex-sdk/**";
+			};
+			name = Debug;
+		};
+		A4E253C1166D6FB300DCDC2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DSTROOT = /tmp/plugin_library.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Plugin\"",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/Quizz-emyhhpcekufehufpejldettonmvg/Build/Products/Debug-iphonesimulator\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/CoronaEnterprise/Corona/shared/include/Corona ${SRCROOT}/CoronaEnterprise/Corona/shared/include/lua ${SRCROOT}/CoronaEnterprise/Corona/ios/include/Corona ${SRCROOT}/../ios-scoreflex-sdk/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A484111315114F700074BD57 /* Build configuration list for PBXProject "Plugin.scoreflex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A484114015114F700074BD57 /* Debug */,
+				A484114115114F700074BD57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E253BF166D6FB300DCDC2C /* Build configuration list for PBXNativeTarget "plugin_library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E253C0166D6FB300DCDC2C /* Debug */,
+				A4E253C1166D6FB300DCDC2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A484111015114F700074BD57 /* Project object */;
+}
